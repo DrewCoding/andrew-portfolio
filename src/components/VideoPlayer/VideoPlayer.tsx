@@ -27,6 +27,26 @@ export function VideoPlayer({ videoName, overrides = {} }: VideoPlayerProps) {
     return () => video.removeEventListener("ended", handleEnd);
   }, []);
 
+  // pause
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          video.play();
+        } else {
+          video.pause();
+        }
+      },
+      { threshold: 0.25 }
+    );
+
+    observer.observe(video);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
       className={styles.mainVideoContainer}
