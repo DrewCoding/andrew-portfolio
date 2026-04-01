@@ -1,0 +1,21 @@
+.projectInfo {
+  flex: 1;
+}
+
+.projectTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: color 0.25s ease;
+}
+
+.projectDescription {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}

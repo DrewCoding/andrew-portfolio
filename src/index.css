@@ -1,0 +1,94 @@
+/* ===== Design Tokens ===== */
+:root {
+  /* Colors — dark navy palette */
+  --color-bg: #0a192f;
+  --color-bg-light: #112240;
+  --color-bg-card: rgba(17, 34, 64, 0.6);
+  --color-text-primary: #ccd6f6;
+  --color-text-secondary: #8892b0;
+  --color-text-muted: #495670;
+  --color-accent: #64ffda;
+  --color-accent-muted: rgba(100, 255, 218, 0.1);
+  --color-highlight: #e6f1ff;
+  --color-link-hover: #64ffda;
+
+  /* Typography */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  /* Rendering */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== Global Resets ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-secondary);
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* ===== Typography ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary);
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: var(--color-highlight);
+}
+
+/* ===== Selection ===== */
+::selection {
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-text-muted);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-secondary);
+}

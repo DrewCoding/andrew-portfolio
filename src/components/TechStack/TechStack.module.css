@@ -1,0 +1,17 @@
+.techTag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: var(--color-accent-muted);
+  color: var(--color-accent);
+  letter-spacing: 0.02em;
+}
+
+.techList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+}

@@ -1,0 +1,23 @@
+"use client";
+
+import styles from "./Project.module.css";
+import type { project } from "../../../lists/Projects";
+import { TechStack } from "../TechStack";
+
+export function Project({ title, description, techStack, src, link }: project) {
+  return (
+    <div className={styles.projectsList}>
+      <a href={link} className={styles.projectCard}>
+        <div className={styles.projectInfo}>
+          <h3 className={styles.projectTitle}>
+            {title}
+          </h3>
+          <p className={styles.projectDescription}>
+            {description}
+          </p>
+          <TechStack techStack={techStack} />
+        </div>
+      </a>
+    </div>
+  );
+}

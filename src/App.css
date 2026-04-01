@@ -1,0 +1,19 @@
+/* App-level styles — kept minimal, design tokens live in index.css */
+#root {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  #root {
+    padding: 0 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  #root {
+    padding: 0 8rem;
+  }
+}

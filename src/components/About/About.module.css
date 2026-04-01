@@ -1,0 +1,9 @@
+.aboutText p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
+.aboutText p:last-child {
+  margin-bottom: 0;
+}
