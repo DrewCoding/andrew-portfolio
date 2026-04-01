@@ -6,7 +6,7 @@ export const projects: project[] = [
         description:
             "Repositories made easy. A user-friendly alternative to GitHub without feeling overwhelmed. IN DEVELOPMENT.",
         techStack: ["Go", "Typescript", "PostgreSQL"],
-        src: "Cojekt-Demo.mp4",
+        src: "",
         link: "",
     },
     {
