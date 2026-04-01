@@ -2,45 +2,34 @@ import { project } from "../lists/Projects";
 
 export const projects: project[] = [
     {
-        title: "Project 1",
-        description: "Description 1",
-        techStack: ["Tech 1", "Tech 2"],
-        src: "src1",
-        link: "link1",
+        title: "Cojekt",
+        description:
+            "Repositories made easy. A user-friendly alternative to GitHub without feeling overwhelmed. IN DEVELOPMENT.",
+        techStack: ["Go", "Typescript", "PostgreSQL"],
+        src: "Cojekt-Demo.mp4",
+        link: "",
     },
     {
-        title: "Project 2",
-        description: "Description 2",
-        techStack: ["Tech 3", "Tech 4"],
-        src: "src2",
-        link: "link2",
+        title: "Free Unity Hoverbike Controller demo",
+        description: "Fun Controllable Bike Physics template using rigidbody.",
+        techStack: ["C#"],
+        src: "Hoverbike-Demo.mp4",
+        link: "https://github.com/DrewCoding/Speeder-Driver-Controller",
     },
     {
-        title: "Project 3",
-        description: "Description 3",
-        techStack: ["Tech 3", "Tech 4"],
-        src: "src2",
-        link: "link2",
+        title: "Free Unity A* Pathfinding Demo",
+        description:
+            "Implements A* pathfinding to AI controllers, includes collision avoidance system.",
+        techStack: ["C#"],
+        src: "Astar-Demo.mp4",
+        link: "https://github.com/DrewCoding/A-Star-Civilian-Handling",
     },
     {
-        title: "Project 4",
-        description: "Description 4",
-        techStack: ["Tech 3", "Tech 4"],
-        src: "src2",
-        link: "link2",
-    },
-    {
-        title: "Project 5",
-        description: "Description 5",
-        techStack: ["Tech 3", "Tech 4"],
-        src: "src2",
-        link: "link2",
-    },
-    {
-        title: "Project 6",
-        description: "Description 6",
-        techStack: ["Tech 3", "Tech 4"],
-        src: "src2",
-        link: "link2",
+        title: "Battlefront-style Flight Controller",
+        description:
+            "A battle flight system using Rigidbody physics to propel the ship or plane forward.",
+        techStack: ["C#"],
+        src: "Flight-Demo.mp4",
+        link: "https://github.com/DrewCoding/Space-Ship-Controler",
     },
 ];
