@@ -1,0 +1,26 @@
+.mainVideoContainer {
+  position: relative;
+  width: 500px;
+  height: 270px;
+  overflow: hidden;
+}
+
+.videoWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  background-color: black;
+  z-index: 0;
+}
+
+.video {
+  width: 500px;
+  object-fit: cover;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+}
+
+.fadeOut {
+  opacity: 0;
+}

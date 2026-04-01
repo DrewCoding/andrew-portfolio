@@ -3,6 +3,7 @@
 import styles from "./Project.module.css";
 import type { project } from "../../../lists/Projects";
 import { TechStack } from "../TechStack";
+import { VideoPlayer } from "../VideoPlayer";
 
 export function Project({ title, description, techStack, src, link }: project) {
   return (
@@ -12,6 +13,9 @@ export function Project({ title, description, techStack, src, link }: project) {
           <h3 className={styles.projectTitle}>
             {title}
           </h3>
+          <div className={styles.image}>
+            {src && <VideoPlayer videoName={src} />}
+          </div>
           <p className={styles.projectDescription}>
             {description}
           </p>

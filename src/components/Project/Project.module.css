@@ -19,3 +19,10 @@
   line-height: 1.6;
   margin-bottom: 0.75rem;
 }
+
+.image {
+  flex-shrink: 1;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
