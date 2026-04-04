@@ -7,7 +7,7 @@ export const projects: project[] = [
             "A robust uptime monitoring service designed to keep track of sites ran by AWS. Sentinel checks AWS and immediately alerts you if anything goes down.",
         techStack: ["Go", "Typescript", "PostgreSQL"],
         src: "",
-        link: "",
+        link: "https://github.com/DrewCoding/Uptime-Tracker",
     },
     {
         title: "Free Unity Hoverbike Controller demo",
