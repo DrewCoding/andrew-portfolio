@@ -1,19 +1,18 @@
 /* ===== Design Tokens ===== */
 :root {
   /* Colors — dark navy palette */
-  --color-bg: #0a192f;
-  --color-bg-light: #112240;
+  --color-bg: #000000;
   --color-bg-card: rgba(17, 34, 64, 0.6);
   --color-text-primary: #ccd6f6;
   --color-text-secondary: #8892b0;
   --color-text-muted: #495670;
-  --color-accent: #64ffda;
+  --color-accent: #ffffff;
   --color-accent-muted: rgba(100, 255, 218, 0.1);
   --color-highlight: #e6f1ff;
   --color-link-hover: #64ffda;
 
   /* Typography */
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: 'Inter';
   line-height: 1.6;
   font-weight: 400;
 
@@ -48,7 +47,12 @@ body {
 }
 
 /* ===== Typography ===== */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--color-text-primary);
   font-weight: 700;
   line-height: 1.1;

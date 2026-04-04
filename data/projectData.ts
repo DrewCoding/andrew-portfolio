@@ -2,9 +2,9 @@ import type { project } from "../lists/Projects";
 
 export const projects: project[] = [
     {
-        title: "Cojekt",
+        title: "Sentinel Uptime Tracker",
         description:
-            "Repositories made easy. A user-friendly alternative to GitHub without feeling overwhelmed. IN DEVELOPMENT.",
+            "A robust uptime monitoring service designed to keep track of sites ran by AWS. Sentinel checks AWS and immediately alerts you if anything goes down.",
         techStack: ["Go", "Typescript", "PostgreSQL"],
         src: "",
         link: "",

@@ -64,7 +64,6 @@ export function Main() {
                     onClick={() => handleNavClick(id)}
                     aria-current={activeSection === id ? "true" : undefined}
                   >
-                    <span className={styles.navIndicator} />
                     <span className={styles.navLabel}>{navLabels[id]}</span>
                   </button>
                 </li>
