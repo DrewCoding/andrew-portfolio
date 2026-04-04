@@ -51,7 +51,7 @@ export function Main() {
           <h1 className={styles.name}>
             <a href="/" className={styles.nameLink}>Andrew Williams</a>
           </h1>
-          <h2 className={styles.title}>Software Engineer</h2>
+          <h2 className={styles.title}>Software Engineer Student</h2>
 
 
           <nav className={styles.nav} aria-label="In-page navigation">
