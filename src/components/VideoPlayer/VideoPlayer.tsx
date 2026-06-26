@@ -40,7 +40,7 @@ export function VideoPlayer({ videoName, overrides = {} }: VideoPlayerProps) {
           video.pause();
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     observer.observe(video);
