@@ -49,18 +49,20 @@ export function Main() {
       <header className={styles.sidebar}>
         <div className={styles.sidebarTop}>
           <h1 className={styles.name}>
-            <a href="/" className={styles.nameLink}>Andrew Williams</a>
+            <a href="/" className={styles.nameLink}>
+              Andrew Williams
+            </a>
           </h1>
-          <h2 className={styles.title}>Software Engineer Student</h2>
-
+          <h2 className={styles.title}>Software Engineer</h2>
 
           <nav className={styles.nav} aria-label="In-page navigation">
             <ul className={styles.navList}>
               {sections.map((id) => (
                 <li key={id}>
                   <button
-                    className={`${styles.navLink} ${activeSection === id ? styles.navLinkActive : ""
-                      }`}
+                    className={`${styles.navLink} ${
+                      activeSection === id ? styles.navLinkActive : ""
+                    }`}
                     onClick={() => handleNavClick(id)}
                     aria-current={activeSection === id ? "true" : undefined}
                   >
