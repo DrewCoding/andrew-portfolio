@@ -3,7 +3,8 @@ import type { project } from "../lists/Projects";
 export const projects: project[] = [
   {
     title: "#Include Marketplace",
-    description: "A marketplace for students to buy and sell parts.",
+    description:
+      "A marketplace for students to buy or sell items within the UC Davis community.",
     techStack: ["Typescript", "Next.js", "MongoDB", "Cloudinary"],
     src: "Marketplace-Demo.mp4",
     link: "https://github.com/include-davis/marketplace",
