@@ -2,6 +2,14 @@ import type { project } from "../lists/Projects";
 
 export const projects: project[] = [
   {
+    title: "Custom AWS Matchmaker",
+    description:
+      "Backend cloud infrastructure for a matchmaking multiplayer game.",
+    techStack: ["Python", "Go", "Kubernetes", "AWS", "IaC"],
+    src: "",
+    link: "https://github.com/DrewCoding/ground-trace",
+  },
+  {
     title: "Vamos-a-Hablar",
     description: "Back and forth spanish tutor powered by AI.",
     techStack: ["Go", "AWS", "IaC"],
