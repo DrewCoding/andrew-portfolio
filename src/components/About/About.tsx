@@ -7,9 +7,9 @@ export function About() {
     <div className={styles.aboutText}>
       <p>
         I'm a software engineer passionate about crafting solutions to complex
-        problems. With knowledge in the development of Full-Stack engineering,
-        as well as game development, I enjoy working with new technologies and
-        collaborating with other fellow engineers from many backgrounds to
+        problems. With knowledge in the development of cloud development, as
+        well as full-stack engineering, I enjoy working with new technologies
+        and collaborating with other fellow engineers from many backgrounds to
         create something truly special.
       </p>
       <p>
